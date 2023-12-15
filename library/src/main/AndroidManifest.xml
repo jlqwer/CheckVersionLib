@@ -33,6 +33,7 @@
 
         <service
             android:name=".v2.ui.VersionService"
+            android:foregroundServiceType="shortService"
             android:exported="false"
             android:priority="1000" />
 
